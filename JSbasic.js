@@ -85,14 +85,6 @@
 
 // // expected output - [5, 4, 3, 2, 1]
 
-// let array = [1, 2, 3, 4, 5];
-// let reversedArray = [];
-// for (let i = array.length - 1; i >= 0; i--) {
-//     reversedArray.push(array[i]);
-// }
-// console.log(reversedArray);
-
-// // expected output - [5, 4, 3, 2, 1]
 
 // // Another method to reverse an array
 
@@ -129,3 +121,8 @@
 // console.log(reversedArray); // [5, 4, 3, 2, 1]
 
 // // expected output - [5, 4, 3, 2, 1]
+
+
+// ishant["name"] & ishant.name are same but the latter is preffered
+
+//RESTARTED FROM JANUARY 2026 
