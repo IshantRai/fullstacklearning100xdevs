@@ -129,3 +129,5 @@
 // console.log(reversedArray); // [5, 4, 3, 2, 1]
 
 // // expected output - [5, 4, 3, 2, 1]
+
+//REVIEW OF STRING METHODS
