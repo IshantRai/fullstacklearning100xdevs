@@ -30,3 +30,9 @@ for (let i = 0; i <= 100; i++) {
     ans += i;
 }
 console.log(ans);
+
+function sum (a, b) {
+    return a + b;
+}
+console.log(sum(4, 8)); // 12
+console.log(sum(10, 20)); // 30
