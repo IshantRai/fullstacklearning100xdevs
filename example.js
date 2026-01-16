@@ -65,19 +65,42 @@
 
 
 //  ----------------------------------------------------------------
-// complex example
-function CalculateArithmetic(a, b, operation){
-    if(operation == "sum"){
-        return (a + b);
+// // complex example
+// function CalculateArithmetic(a, b, operation){
+//     if(operation == "sum"){
+//         return (a + b);
+//     }
+//     else if(operation == "multiply"){
+//         return (a * b);
+//     }
+// else if(operation == "divide"){
+//     return (a / b);
+// }
+// }
+// const result = CalculateArithmetic(4, 2, "sum");
+// console.log(result);  // 6
+// const result1 = CalculateArithmetic(4, 2, "multiply");
+// console.log(result1);  // 8
+
+
+const allPeople = [{
+    firstName: "rahul",
+    gender: "male"
+},{
+    firstName: "rohit",
+    gender: "male"
+},{
+    firstName: "neha",
+    gender: "female"
+},{
+    firstName: "priya",
+    gender: "female"
+},{
+    firstName: "sonal",
+    gender: "male"          
+}];
+for (let i =0 ; i < allPeople.length; i++) {
+    if(allPeople[i]["gender"] === "male"){
+        console.log(allPeople[i]["firstName"]);
     }
-    else if(operation == "multiply"){
-        return (a * b);
-    }
-else if(operation == "divide"){
-    return (a / b);
 }
-}
-const result = CalculateArithmetic(4, 2, "sum");
-console.log(result);  // 6
-const result1 = CalculateArithmetic(4, 2, "multiply");
-console.log(result1);  // 8
