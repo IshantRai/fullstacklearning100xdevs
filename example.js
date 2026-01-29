@@ -114,6 +114,22 @@
 // }
 
 
+
+
+
+//# complex prmitive data types(array, object literals, functions, date, regex)
+// Let's write some code -
+// 1. Write a program prints all the even numbers in an array
+// 2. Write a program to print the biggest number in an arrya
+// 3. Write a program that prints all the male people's first name given a complex object
+// 4. Write a program that reverses all the elements of an array
+
+//#simple primitive data types(string, number, boolean, null, undefined, symbol)
+let name = "harry";
+console.log("my string is " + name);
+console.log("data type is " + (typeof name));
+
+
 const allPeople = [{
     firstName: "rahul",
     gender: "male"
@@ -135,16 +151,3 @@ for (let i =0 ; i < allPeople.length; i++) {
         console.log(allPeople[i]["firstName"]);
     }
 }
-
-
-//# complex prmitive data types(array, object literals, functions, date, regex)
-// Let's write some code -
-// 1. Write a program prints all the even numbers in an array
-// 2. Write a program to print the biggest number in an arrya
-// 3. Write a program that prints all the male people's first name given a complex object
-// 4. Write a program that reverses all the elements of an array
-
-//#simple primitive data types(string, number, boolean, null, undefined, symbol)
-let name = "harry";
-console.log("my string is " + name);
-console.log("data type is " + (typeof name));
