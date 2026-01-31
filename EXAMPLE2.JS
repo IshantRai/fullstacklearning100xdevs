@@ -51,3 +51,15 @@ for (let i = 0; i < arr.length; i++) {
         console.log(arr[i]);
     }
 }
+
+
+
+let array = [1, 2, 3, 4, 5];
+let reversedArray = [];
+for (let i = array.length - 1; i >= 0; i--) {
+    reversedArray.push(array[i]);
+}
+console.log(reversedArray);
+
+
+expected output - [5, 4, 3, 2, 1]  
