@@ -72,3 +72,35 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < arr.length; i++) {
+    if(arr[i] % 2 === 0){
+        console.log(arr[i]);
+    }
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < arr.length; i++) {
+    if(arr[i] % 2 === 0){
+        console.log(arr[i]);
+    }
+}
+
+
+ ----------------------------------------------------------------
+// complex example
+function CalculateArithmetic(a, b, operation){
+    if(operation == "sum"){
+        return (a + b);
+    }
+    else if(operation == "multiply"){
+        return (a * b);
+    }
+else if(operation == "divide"){
+    return (a / b);
+}
+}
+const result = CalculateArithmetic(4, 2, "sum");
+console.log(result);  // 6
+const result1 = CalculateArithmetic(4, 2, "multiply");
+console.log(result1);  // 8
