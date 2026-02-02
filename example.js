@@ -125,32 +125,40 @@
 // 4. Write a program that reverses all the elements of an array
 
 //#simple primitive data types(string, number, boolean, null, undefined, symbol)
-let name = "harry";
-console.log("my string is " + name);
-console.log("data type is " + (typeof name));
+// let name = "harry";
+// console.log("my string is " + name);
+// console.log("data type is " + (typeof name));
 
 
-const allPeople = [{
-    firstName: "rahul",
-    gender: "male"
-},{
-    firstName: "rohit",
-    gender: "male"
-},{
-    firstName: "neha",
-    gender: "female"
-},{
-    firstName: "priya",
-    gender: "female"
-},{
-    firstName: "sonal",
-    gender: "male"          
-}];
-for (let i =0 ; i < allPeople.length; i++) {
-    if(allPeople[i]["gender"] === "male"){
-        console.log(allPeople[i]["firstName"]);
-    }
-}
+// const allPeople = [{
+//     firstName: "rahul",
+//     gender: "male"
+// },{
+//     firstName: "rohit",
+//     gender: "male"
+// },{
+//     firstName: "neha",
+//     gender: "female"
+// },{
+//     firstName: "priya",
+//     gender: "female"
+// },{
+//     firstName: "sonal",
+//     gender: "male"          
+// }];
+// for (let i =0 ; i < allPeople.length; i++) {
+//     if(allPeople[i]["gender"] === "male"){
+//         console.log(allPeople[i]["firstName"]);
+//     }
+// }
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// for (let i = 0; i < arr.length; i++) {
+//     if(arr[i] % 2 === 0){
+//         console.log(arr[i]);
+//     }
+// }
 
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
