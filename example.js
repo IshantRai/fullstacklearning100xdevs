@@ -33,3 +33,17 @@ for (let i = 0; i < arr.length; i++) {
         console.log(arr[i]);
     }
 }
+
+
+const peopleArray = ["rahul", "rohit", "neha", "priya", "sonal"];
+const genderArray = ["male", "male", "female", "female", "male"];
+for (let i = 0; i < peopleArray.length; i++) {
+    if (genderArray[i] === "male") {
+        console.log(peopleArray[i]);
+    }   
+}
+
+// expected output -
+// rahul
+// rohit
+// sonal
